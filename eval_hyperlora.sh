@@ -8,7 +8,7 @@ do
 	python run_glue_adapterhub.py \
 			--model_name_or_path $MODEL_NAME \
 			--task_name $TASK_NAME \
-			--output_dir ./results_adapter_tada/$MODEL_NAME/${TASK_NAME}_nge_10_tada \
+			--output_dir ./results/$MODEL_NAME/${TASK_NAME}_nge \
 			--overwrite_output_dir \
 			--overwrite_cache \
 			--save_dataset_path "./NgE_dataset/${TASK_NAME}"\
